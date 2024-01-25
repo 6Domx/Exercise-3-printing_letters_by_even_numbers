@@ -6,5 +6,6 @@
 
 
 character_input = input("Please enter any character: ")
-if character_input < 4:
-    print("Invalid, please input more characters.")
+character_length = len(character_input)
+
+print("Your word: ", character_input)
