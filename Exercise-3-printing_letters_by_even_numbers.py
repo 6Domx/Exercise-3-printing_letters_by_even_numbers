@@ -9,3 +9,8 @@ character_input = input("Please enter any character: ")
 character_length = len(character_input)
 
 print("Your word: ", character_input)
+print("------------------------------")
+print("Your new word: ")
+
+for i in range(0, character_length -1, 2):
+    print("Number {", i, "}:", character_input[i])
